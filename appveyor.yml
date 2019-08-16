@@ -1,0 +1,12 @@
+version: 1.0.{build}
+
+environment:
+  NAME: file.bin
+  URL: https://github.com/apache/incubator-weex/archive/0.26.0.tar.gz
+
+build_script:
+- cmd: echo %URL%
+- cmd: curl -fsSL -o %NAME% %URL%
+
+artifacts:
+- path: $(NAME)
