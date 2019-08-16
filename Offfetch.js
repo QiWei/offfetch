@@ -22,7 +22,7 @@ function md5(str){
 
 //显示帮助
 function do_help(){
-	console.log("usage: " + __filename.substring(__dirname.length + 1, __filename.lastIndexOf("."))" + [options] <url> <file>");
+	console.log("usage: " + __filename.substring(__dirname.length + 1, __filename.lastIndexOf(".")) + " [options] <url> <file>");
 	console.log("options:");
 	console.log("  -h --help    show help");
 	//console.log("  -c --config  config paramters");
