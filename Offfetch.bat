@@ -1,1 +1,1 @@
-@node "%~dp0\CIDownload.js" %*
+@node "%~dp0\%~n0.js" %*

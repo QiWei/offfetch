@@ -22,7 +22,7 @@ function md5(str){
 
 //显示帮助
 function do_help(){
-	console.log("usage: xdownload [options] <url> <file>");
+	console.log("usage: " + __filename.substring(__dirname.length + 1, __filename.lastIndexOf("."))" + [options] <url> <file>");
 	console.log("options:");
 	console.log("  -h --help    show help");
 	//console.log("  -c --config  config paramters");
@@ -48,8 +48,8 @@ function load_config(must){
 	}
 	if(must){
 		if(!username_.length || !projname_.length){
-			console.log("xdownload not configed");
-			console.log("please run xdownload --config");
+			console.log("" + __filename.slice(__dirname.length + 1, -3) + " not configed");
+			console.log("please run " + __filename.slice(__dirname.length + 1, -3) + " --config");
 			process.exit(1);
 		}
 	}	
@@ -57,7 +57,7 @@ function load_config(must){
 
 //初始化本地配置
 function do_config(){
-	console.log("config xdownload ...\n");
+	console.log("config " + __filename.slice(__dirname.length + 1) + " ...\n");
 	load_config();
 	process.exit(1);
 }
