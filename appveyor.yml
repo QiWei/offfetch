@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://github.com/apache/incubator-weex/archive/0.26.0.tar.gz
+  URL: https://docs.python.org/zh-cn/3/archives/python-3.7.4-docs-text.zip
 
 build_script:
 - cmd: echo %URL%

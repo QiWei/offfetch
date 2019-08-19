@@ -165,8 +165,8 @@ function create_appveyor_yml(url, file){
 //同步代码到git服务器
 function do_update_src(commitmsg){
 	var dir = this_dir_;
-	console.log("git pull ...");
-	cp.execSync("git pull", {cwd:dir}); 
+	// console.log("git pull ...");
+	// cp.execSync("git pull", {cwd:dir}); 
 	create_appveyor_yml(url_, dir + "/appveyor.yml");
 	console.log("git commit ...");
 	cp.execSync("git commit -am " + commitmsg, {cwd:dir});
