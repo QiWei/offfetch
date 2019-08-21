@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://docs.python.org/zh-cn/3/archives/python-3.7.4-docs-text.zip
+  URL: https://github.com/PowerShell/PowerShell/releases/download/v6.2.2/PowerShell-6.2.2-win-x64.zip
 
 build_script:
 - cmd: echo %URL%
