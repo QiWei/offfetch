@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://github.com/PowerShell/PowerShellEditorServices/releases/download/v1.12.2/PowerShellEditorServices.zip
+  URL: https://github.com/containous/traefik/releases/download/v2.0.0/traefik_v2.0.0_windows_386.zip
 
 build_script:
 - cmd: echo %URL%
