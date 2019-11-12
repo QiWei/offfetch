@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://github.com/containous/traefik/releases/download/v2.0.0/traefik_v2.0.0_windows_amd64.zip
+  URL: https://github.com/nauxliu/Dash-docsets-CN/releases/download/20190907/Python.3.docset.zip
 
 build_script:
 - cmd: echo %URL%
