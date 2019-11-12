@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://github.com/nauxliu/Dash-docsets-CN/releases/download/20190907/Python.3.docset.zip
+  URL: https://github.com/nauxliu/Dash-docsets-CN/releases/download/20190226/PHP.docset.zip
 
 build_script:
 - cmd: echo %URL%
