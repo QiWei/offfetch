@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://files.dev47apps.net/DroidCam.Client.6.0.FullOffline.zip
+  URL: https://files.dev47apps.net/DroidCam.Setup.6.3.1.exe
 
 build_script:
 - cmd: echo %URL%
