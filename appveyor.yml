@@ -2,7 +2,7 @@ version: 1.0.{build}
 
 environment:
   NAME: file.bin
-  URL: https://github.com/nauxliu/Dash-docsets-CN/releases/download/20190226/PHP.docset.zip
+  URL: https://files.dev47apps.net/DroidCam.Client.6.0.FullOffline.zip
 
 build_script:
 - cmd: echo %URL%
